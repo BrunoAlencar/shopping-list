@@ -1,0 +1,83 @@
+body {
+    background: #ccc;
+}
+#app {
+    width: 980px;
+    margin: 0 auto;
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#list {
+    
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+#list li {
+    font-size: 18px;
+    margin-top: 10px;
+}
+    
+#list div {
+    display: inline-block;
+}
+.small {
+    font-size: 18px !important;
+    /* background: #bbb; */
+    font-style: oblique;
+    text-decoration: line-through;
+}
+
+.value {
+    color: black;
+    margin: 10px;
+}
+.quantity {
+    margin: 10px;
+    color: green;
+}
+.subtotal {
+    margin: 10px;
+    color: darkred;
+}
+
+.total {
+    margin: 10px;
+    color: red;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.btn {
+    padding: 6px;
+    font-size: 19px;
+    border-radius: 8px;
+    background: none;
+    border: 1.5px solid blueviolet;
+    outline: none;
+    cursor: pointer;
+    max-height: 32px;
+    line-height: 15px;
+    
+}
+.btn:hover {
+    background: rgb(144, 88, 196);
+}
+.plus {
+    color: rgb(8, 146, 6);
+    font-weight: bolder;
+}
+
+.less {
+    color: rgb(146, 6, 6);
+    font-weight: bolder;
+}
+
+.del {
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+}
