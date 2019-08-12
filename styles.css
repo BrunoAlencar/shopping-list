@@ -2,7 +2,7 @@ body {
     background: #ccc;
 }
 #app {
-    width: 980px;
+    max-width: 980px;
     margin: 0 auto;
     text-align: center;
     color: blueviolet;
@@ -80,4 +80,22 @@ body {
 .del {
     color: rgb(255, 0, 0);
     font-weight: bolder;
+}
+.submit {
+    width: 50%;
+}
+input {
+    background: #eee;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    font-size: 18px;
+    color:black;
+    padding-left: 5px;
+}
+
+#name {
+    width: 55%;
+}
+#value {
+    width: 25%;
 }
